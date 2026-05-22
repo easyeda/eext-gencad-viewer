@@ -1,0 +1,57 @@
+{
+	"name": "gencad-viewer",
+	"uuid": "38cc341817bb4b199428d7de0356720c",
+	"displayName": "GenCAD查看器",
+	"description": "支持导入GenCAD格式文件(.cad)进行预览查看。",
+	"version": "1.0.0",
+	"publisher": "",
+	"engines": {
+		"eda": "^3.0.0"
+	},
+	"license": "Apache-2.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/easyeda/eext-gencad-viewer"
+	},
+	"categories": "Other",
+	"keywords": [
+		"Tool",
+		"GenCAD"
+	],
+	"images": {
+		"logo": "./images/logo.jpg"
+	},
+	"homepage": "https://github/easyeda/eext-gencad-viewer",
+	"bugs": "https://github/easyeda/eext-gencad-viewer/issues",
+	"activationEvents": {},
+	"entry": "./dist/index",
+	"dependentExtensions": {},
+	"headerMenus": {
+		"pcb": [
+			{
+				"id": "menuId",
+				"title": "GenCAD查看器",
+				"menuItems": [
+					{
+						"id": "openGenCAD",
+						"title": "Open GenCAD Viewer...",
+						"registerFn": "openGenCAD"
+					}
+				]
+			}
+		],
+		"home": [
+			{
+				"id": "menuId",
+				"title": "GenCAD查看器",
+				"menuItems": [
+					{
+						"id": "openGenCAD",
+						"title": "Open GenCAD Viewer...",
+						"registerFn": "openGenCAD"
+					}
+				]
+			}
+		]
+	}
+}
