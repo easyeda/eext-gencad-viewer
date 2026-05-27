@@ -21,8 +21,8 @@
 	"images": {
 		"logo": "./images/logo.jpg"
 	},
-	"homepage": "https://github/easyeda/eext-gencad-viewer",
-	"bugs": "https://github/easyeda/eext-gencad-viewer/issues",
+	"homepage": "https://github.com/easyeda/eext-gencad-viewer",
+	"bugs": "https://github.com/easyeda/eext-gencad-viewer/issues",
 	"activationEvents": {},
 	"entry": "./dist/index",
 	"dependentExtensions": {},
