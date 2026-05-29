@@ -16,7 +16,7 @@ import * as extensionConfig from '../extension.json';
 export function activate(status?: 'onStartupFinished', arg?: string): void {}
 
 export function openGenCAD(): void {
-	eda.sys_IFrame.openIFrame('/iframe/online-gencad-viewer.html', 9999, 9999, 'gencad-viewer', {
+	eda.sys_IFrame.openIFrame('/dist/iframe/online-gencad-viewer.html', 9999, 9999, 'gencad-viewer', {
 		title: eda.sys_I18n.text('GenCAD Viewer'),
 		maximizeButton: true,
 		minimizeButton: true,
