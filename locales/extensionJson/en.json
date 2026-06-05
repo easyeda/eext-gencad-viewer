@@ -1,5 +1,8 @@
 {
 	"About...": "About...",
 	"GenCAD查看器": "GenCAD Viewer",
-	"Open GenCAD Viewer...": "Open GenCAD Viewer..."
+	"Open GenCAD Viewer...": "Open GenCAD Viewer...",
+	"支持导入GenCAD格式文件(.cad)进行预览查看。": "Supports importing GenCAD format files (.cad) for preview.",
+	"Tool": "Tool",
+	"GenCAD": "GenCAD"
 }

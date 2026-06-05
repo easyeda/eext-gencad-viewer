@@ -1,5 +1,6 @@
 {
 	"About": "About",
 	"EasyEDA extension SDK v": "EasyEDA extension SDK v${1}",
-	"GenCAD Viewer": "GenCAD Viewer"
+	"GenCAD Viewer": "GenCAD Viewer",
+	"This is a sample IFrame page": "This is a sample IFrame page"
 }
