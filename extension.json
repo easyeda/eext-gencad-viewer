@@ -3,7 +3,7 @@
 	"uuid": "38cc341817bb4b199428d7de0356720c",
 	"displayName": "GenCAD查看器",
 	"description": "支持导入GenCAD格式文件(.cad)进行预览查看。",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "",
 	"engines": {
 		"eda": "^3.0.0"
